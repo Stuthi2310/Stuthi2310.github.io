@@ -1,0 +1,48 @@
+body {
+    background-color: #111313;
+    color: white;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0 2em;
+}
+
+.card {
+    border-radius: 15px; 
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.card-body {
+    background-color: #1a1a1a;
+    border-radius: 15px; 
+    color: white;
+}
+
+.card-title {
+    font-size: 1.25rem; 
+}
+
+.card-text {
+    font-size: 1rem; 
+}
+
+.card-height {
+    height: calc((100vh - 6em) / 3); 
+}
+
+.card-height-tall {
+    height: calc((100vh - 6em) * 2 / 3); 
+}
+
+.card-half-height {
+    height: calc((100vh - 6em) / 3 - 1.5em / 2); 
+}
+
+@media (max-width: 768px) {
+    .card-height, .card-height-tall, .card-half-height {
+        height: auto; 
+    }
+}
