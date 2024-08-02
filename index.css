@@ -57,15 +57,15 @@ body {
   }
 
 .card-height {
-  height: calc((100vh - 6em) / 3);
+  height: calc((100vh - 8em) / 4);
 }
 
 .card-height-tall {
-  height: calc((100vh - 6em) * 2 / 3);
+  height: calc((100vh - 8em) * 3 / 4);
 }
 
 .card-half-height {
-  height: calc((100vh - 6em) / 3 - 1.5em / 2);
+  height: calc((100vh - 8em) / 4 - 1.5em / 2);
 }
 
 @media (max-width: 768px) {
