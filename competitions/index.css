@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "MadeTommyRegular";
+    src: url("fonts/MADE\ TOMMY\ Regular_PERSONAL\ USE.otf") format("opentype");
+  }
+  
+  @font-face {
+      font-family: "MadeTommyLight";
+      src: url("fonts/MADE\ TOMMY\ Light_PERSONAL\ USE.otf") format("opentype");
+    }
+  
+    @font-face {
+      font-family: "MadeTommyThin";
+      src: url("fonts/MADE\ TOMMY\ Thin_PERSONAL\ USE.otf") format("opentype");
+    }
+  
+  
+  body {
+    background-color: #111313;
+    color: white;
+    margin-bottom: 1em;
+    padding: 0;
+  }
+  
+  .container-fluid {
+    padding: 0 2em;
+  }
+  
+  .card {
+    border-radius: 15px;
+    background-color: #1a1a1a;
+    color: white;
+    border: 0px;
+  }
+  
+  .card-body {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    color: white;
+    
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    /* font-family: 'MadeTommyRegular', sans-serif; */
+    font-family: 'MadeTommyThin', sans-serif;
+    
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  .card-text-italics {
+      font-size: 1rem;
+      font-style: italic;
+      font-weight: 100;
+    }
+  
+  .card-height {
+    height: calc((100vh - 8em) / 4);
+  }
+  
+  .card-height-tall {
+    height: calc((100vh - 8em) * 3 / 4);
+  }
+  
+  .card-half-height {
+    height: calc((100vh - 8em) / 4 - 1.5em / 2);
+  }
+  
+  @media (max-width: 768px) {
+    .card-height,
+    .card-height-tall,
+    .card-half-height {
+      height: auto;
+    }
+  }
+  
